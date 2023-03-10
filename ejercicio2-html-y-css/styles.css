@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.formulario {
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 2px solid rgb(61, 200, 228);
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to top, #e8a1f1, #0769da);
+    box-shadow: 3px 6px 3px 5px rgb(50, 50, 56);
+    position: relative;
+}
+
+h1, label{
+    color: white;
+}
+
+#email, #password, select {
+    padding: 7px;
+    width: 100%;
+}
+
+button {
+    padding-top: 5;
+    padding-bottom: 5;
+    padding-left: 15;
+    padding-right: 15;
+    position: absolute;
+    right: 20px;
+}
+
+
+/* no visitado */
+a:link {
+    color: #070404;
+}
+
+/* visitado */
+a:visited {
+    color: #1d0cd8;
+}
+
+/* mouse sobre el vínculo */
+a:hover {
+    color: #009dff;
+}
+
+/* seleccionado */
+a:active {
+    color: #e5ff00;
+}
+
+@media (max-width: 500px) {
+    .formulario {width: 100%;
+} }
+@media (min-width: 300px) {
+    .formulario {width: 300px;}
+} 
